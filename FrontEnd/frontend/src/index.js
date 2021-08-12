@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './css/style.css'
+import './css/animate.css'
+// import './css/owl.carousel.min.css'
+import './css/owl.theme.default.min.css'
+import './css/magnific-popup.css'
+import './css/aos.css'
+// import './css/ionicons.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
