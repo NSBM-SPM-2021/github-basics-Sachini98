@@ -18,7 +18,7 @@ const Appointment = () => {
     const history = useHistory();
 
 const success = () =>{
-     toast.success('Your Appoinment booked!',{
+     toast.success('Registered Sucessfully',{
          position:toast.POSITION.TOP_CENTER,
          autoClose:3000
      })
@@ -166,7 +166,7 @@ const success = () =>{
 
 
 
-                <button onClick={submit} className="makeappointment">Make an Appointment</button>
+                <button onClick={submit} className="Make An Appoinment ">Register </button>
             </form>
         </div>
     );
