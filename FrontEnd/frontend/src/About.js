@@ -30,7 +30,7 @@ const About = () => {
                     <Col>
                         <div className="heading-section mb-4 mt-md-5">
                             <span className="subheading">About Us</span>
-                            <h2 className="mb-4">Welcome To Haircare A Hair Salon</h2>
+                            <h2 className="mb-4">Welcome To Our Chemistry Class </h2>
                         </div>
                         <p>Saloon Haircare is filled with amazingly talented staff who are always working to improve, inspire and fulfill your Makeup,Skin & hair needs. Our expert Makeup Artist & stylists have been working
                             in the Beauty saloon industry for 13+ years, and they not only do makeup,cut, colour and style hair, but they exemplify what it means to be a professional Makeup Artist & hair stylist.

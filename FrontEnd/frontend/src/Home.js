@@ -38,7 +38,7 @@ const Home = () => {
                     <CardTitle className="overlay-title"><br/>
 
                         <br/><br/>Welcome to Haircare</CardTitle>
-                    <CardText>We are professional care for your hair</CardText>
+                    <CardText>We want to be as intelligent as possible</CardText>
                     <CardText>
                         <small className="text-muted"><Link to="/appointment" className="btn btn-primary btn-outline-primary px-4 py-2">Book
                             now</Link></small>

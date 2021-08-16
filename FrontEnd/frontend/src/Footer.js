@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="col-md">
                         <div className="ftco-footer-widget mb-4">
                             <h2 className="ftco-heading-2 logo">Chandika Dewruwan</h2>
-                            <p>We Are professional Care for your Hair</p>
+                            <p>We want to be as intelligent as possible</p>
                             <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                                 <li className="ftco-animate"><Link href="#"><span className="icon-twitter"></span></Link></li>
                                 <li className="ftco-animate"><Link href="#"><span className="icon-facebook"></span></Link>
@@ -36,9 +36,9 @@ const Footer = () => {
                             <h2 className="ftco-heading-2">Links</h2>
                             <ul className="list-unstyled">
                                 <li><Link to="/" className="py-2 d-block">Home</Link></li>
-                                <li><Link to="/services" className="py-2 d-block">Services</Link></li>
+                                <li><Link to="/services" className="py-2 d-block">Time Table </Link></li>
                                 <li><Link to="/about" className="py-2 d-block">About</Link></li>
-                                <li><Link to="/appointment" className="py-2 d-block">Appointment</Link></li>
+                                <li><Link to="/appointment" className="py-2 d-block">Register </Link></li>
                             </ul>
                         </div>
                     </div>
@@ -47,12 +47,12 @@ const Footer = () => {
                             <h2 className="ftco-heading-2">Have a Questions?</h2>
                             <div className="block-23 mb-3">
                                 <ul>
-                                    <li><span className="icon icon-map-marker"></span><span className="text">204/1 ,  kandy colombo road, Baththaramulla, colombo, Sri Lanka</span>
+                                    <li><span className="icon icon-map-marker"></span><span className="text">187A,NewDias Place,Colombo, Sri Lanka</span>
                                     </li>
-                                    <li><span className="icon icon-phone"></span><span className="text">71 9393390</span>
+                                    <li><span className="icon icon-phone"></span><span className="text">0773048517</span>
                                     </li>
                                     <li><span className="icon icon-envelope"></span><span
-                                        className="text">binura.owin1@gmail.com</span></li>
+                                        className="text">Chandikadewruwan@gamil.com</span></li>
                                 </ul>
                             </div>
                         </div>
