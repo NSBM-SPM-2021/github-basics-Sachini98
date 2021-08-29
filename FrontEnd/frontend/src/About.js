@@ -24,7 +24,7 @@ const About = () => {
                         <br/>
                         <br/>
 
-                                <ReactPlayer url='https://vimeo.com/385010495' />
+                                <ReactPlayer url='https://www.youtube.com/watch?v=1oO-fQvMrkE' />
 
                     </Col>
                     <Col>

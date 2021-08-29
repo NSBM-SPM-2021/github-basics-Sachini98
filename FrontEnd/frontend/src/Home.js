@@ -37,7 +37,7 @@ const Home = () => {
 
                     <CardTitle className="overlay-title"><br/>
 
-                        <br/><br/>Chemistry</CardTitle>
+                        <br/><br/>Chemistry නම් Chemistry</CardTitle>
                     <CardText>We want to be as intelligent as possible</CardText>
                     <CardText>
                         <small className="text-muted"><Link to="/appointment" className="btn btn-primary btn-outline-primary px-4 py-2">Register Now </Link></small>

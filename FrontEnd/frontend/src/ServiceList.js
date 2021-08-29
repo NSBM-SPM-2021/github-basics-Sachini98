@@ -29,7 +29,7 @@ const ServiceList = () => {
         <div className="service-my">
                 <div>
                     <div className="artists-header">
-                        <span >Class </span>
+                        <span >Chemistry නම් Chemistry </span>
                         <h2 >Time Table</h2>
                         <p>We want to be as intelligent as possible</p>
                     </div>
