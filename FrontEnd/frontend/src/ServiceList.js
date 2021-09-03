@@ -22,7 +22,7 @@ import Grade12 from './assets/images/Grades/Grade12.jpeg';
 import Grade13 from "./assets/images/Grades/Grade13.jpeg";
 import PaperClass from "./assets/images/Grades/PaperClass.jpeg";
 import Revision from "./assets/images/Grades/Revision.jpeg";
-import Appointment from "./Appointement";
+import Appointment from "./Register";
 const ServiceList = () => {
     return (
 

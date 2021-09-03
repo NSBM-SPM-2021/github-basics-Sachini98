@@ -17,7 +17,7 @@ import {
     Col
 } from 'reactstrap';
 
-import img6 from './img5.jpg';
+import img6 from './mi.jpg';
 import {useState} from "react";
 
 const Cards = () => {

@@ -18,7 +18,7 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import Appointment from "./Appointement";
+import Appointment from "./Register";
 import Workers from "./Workers";
 import ServiceList from "./ServiceList";
 import Navbar from "./Navbar";

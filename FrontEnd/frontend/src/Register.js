@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import axios from "./axios";
 import  {toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
-import img6 from "./img5.jpg";
+
 
 toast.configure()
 const Appointment = () => {
