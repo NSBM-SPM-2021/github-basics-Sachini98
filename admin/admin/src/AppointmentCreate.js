@@ -3,15 +3,15 @@ import {Create, SimpleForm, TextInput,DateInput} from 'react-admin'
 
 const AppointmentCreate = (props) => {
     return (
-        <Create title='Create a Post'{...props}>
+        <Create title='Register New Student'{...props}>
             <SimpleForm>
-                <TextInput source='userName' />
-                <DateInput source='date' />
-                <TextInput source='time' />
-                <TextInput source='service' />
-                <TextInput source='consumer' />
-                <DateInput source='birthDate' />
+            <TextInput source='userName' />
+                <TextInput source='medium' />
+                <TextInput source='email' />
                 <TextInput source='phone' />
+                <TextInput source='grade' />
+                <TextInput source='school' />
+                <TextInput source='year' />
             </SimpleForm>
         </Create>
 
