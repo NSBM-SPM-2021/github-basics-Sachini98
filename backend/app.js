@@ -29,7 +29,7 @@ app.use((req,res,next) =>{
         next()
 })
 
-app.use('/appointments',appointmentRoutes);
+app.use('/register',appointmentRoutes);
 
 //DB config
 const connection_url =  'mongodb://Admin:admin@cluster0-shard-00-00.hat3j.mongodb.net:27017,cluster0-shard-00-01.hat3j.mongodb.net:27017,cluster0-shard-00-02.hat3j.mongodb.net:27017/tution?ssl=true&replicaSet=atlas-2m0f9m-shard-0&authSource=admin&retryWrites=true&w=majority';
