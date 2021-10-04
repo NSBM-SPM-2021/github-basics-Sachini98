@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* appintment */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: lightseagreen;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: lightseagreen;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: inherit;
+
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: lightseagreen;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: lightseagreen;
+}
+.navbar a:hover {
+  color: darkslategray;
+}
+
+.content {
+
+  margin: 40px auto;
+  padding: 20px;
+}
+.card-title{
+  align-items: stretch;
+}
+.artists-header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  text-align: center;
+}
+.artists-header span{
+  color: lightseagreen;
+  font-size: 15px;
+
+}
+.artists-header h2{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.artists-header p{
+  color: grey;
+  font-size: 14px;
+
+}
+
+.card-body-my{
+  background-color: grey;
+  align-content: center;
+  text-align: center;
+}
+
+
+.bg-overlay{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.overlay-bg{
+  text-align: center;
+}
+.overlay-title{
+  color: lightseagreen;
+  font-size: 40px;
+}
+.navin-bg{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+.service-my{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
