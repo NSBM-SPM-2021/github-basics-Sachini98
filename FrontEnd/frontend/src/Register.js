@@ -34,7 +34,7 @@ const success = () =>{
 
         const appointment = { userName,phone,email,medium,grade,school,year};
         console.log(appointment)
-        axios.post('http://localhost:3001/register', appointment)
+        axios.post('https://chemistryclass-backend.herokuapp.com/register', appointment)
             .then(response =>
                     // console.log(response),
                     success(),

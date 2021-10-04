@@ -1,7 +1,7 @@
 import { fetchUtils } from 'react-admin';
 import { stringify } from 'query-string';
 
-const apiUrl = 'http://localhost:3000';
+const apiUrl = 'https://chemistryclass-backend.herokuapp.com';
 const httpClient = fetchUtils;
 
 // eslint-disable-next-line import/no-anonymous-default-export

@@ -7,7 +7,7 @@ import AppointmentCreate from "./AppointmentCreate";
 import AppointmentEdit from "./AppointmentEdit";
 
 
-const dataProvider = simpleRestClient('http://localhost:3001');
+const dataProvider = simpleRestClient('https://chemistryclass-backend.herokuapp.com');
 const AdminList = () => (
 
        <Admin dataProvider={dataProvider} dashboard={Dashboard}>
