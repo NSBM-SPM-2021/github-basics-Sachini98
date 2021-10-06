@@ -1,10 +1,10 @@
 import './css/style.css'
 import ServiceList from "./ServiceList";
-import {Card, CardBlock, CardBody, CardImgOverlay, Col, Row} from "reactstrap";
+import {Card, CardImg, CardBlock, CardBody, CardImgOverlay, Col, Row} from "reactstrap";
 import background from "./assets/images/vidcover.jpg";
 import video from "./assets/images/movie.mp4"
 import ReactPlayer from 'react-player/vimeo'
-
+import img6 from './ABC.jpg';
 function playVideo() {
     this.refs.vidRef.play();
 }
@@ -24,7 +24,7 @@ const About = () => {
                         <br/>
                         <br/>
 
-                                <ReactPlayer url='https://www.youtube.com/watch?v=1oO-fQvMrkE' />
+                        <CardImg top width="100%" src={img6} alt="" />
 
                     </Col>
                     <Col>
@@ -32,9 +32,7 @@ const About = () => {
                             <span className="subheading">About Us</span>
                             <h2 className="mb-4">Welcome To Our Chemistry Class </h2>
                         </div>
-                        <p>Saloon Haircare is filled with amazingly talented staff who are always working to improve, inspire and fulfill your Makeup,Skin & hair needs. Our expert Makeup Artist & stylists have been working
-                            in the Beauty saloon industry for 13+ years, and they not only do makeup,cut, colour and style hair, but they exemplify what it means to be a professional Makeup Artist & hair stylist.
-                            They are committed to learning new techniques and trends in the Makeup & hair industry, learning that they pass along to their fellow Makeup Artists & Hair stylists and clients.</p>
+                        <p>Mr. Chandika dewruwan  is a famous Chemistry tuition teacher in Sri Lanka. He conducts Theory , Revision and paper  tuition classes in Colombo . During past years he has produced the greatest numbers of Island Ranks in the Country.</p>
                     </Col>
                 </Row>
             </div>
