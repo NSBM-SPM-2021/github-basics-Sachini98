@@ -11,7 +11,7 @@ const Appointment = () => {
     const [userName, setUserName] = useState('')
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
-    const [medium, setMedium] = useState('');
+    const [medium, setMedium] = useState('sinhala');
     const [grade, setGrade] = useState('');
     const [school, setSchool] = useState('');
     const [year, setYear] = useState('');
@@ -38,7 +38,6 @@ const success = () =>{
             .then(response =>
                     // console.log(response),
                     success(),
-                history.push('/')
             )
             .catch(error => {
                 erroralert()
@@ -137,7 +136,7 @@ const success = () =>{
                             required
                             onChange={(e) => setMedium(e.target.value)}
                         >
-                            <option value="sinhala">සිංහල</option>
+                            <option value="sinhala">Sinhala</option>
                             <option value="english">English</option>
 
                         </select>
