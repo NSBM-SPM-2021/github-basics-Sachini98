@@ -55,7 +55,7 @@ exports.appointment_create = (req, res, next) => {
       consumer: req.body.consumer,
     }).exec()
     .then(appointment => {
-        const appointment = new Appointment({
+        const appointment2 = new Appointment({
           _id: new mongoose.Types.ObjectId(),
           userName:  req.body.userName,
           medium:  req.body.medium,
@@ -66,7 +66,7 @@ exports.appointment_create = (req, res, next) => {
           year: req.body.year,
           id: uuidv4(),
         });
-        appointment.save()
+        appointment2.save()
           .then(result => {
             console.log(result);
             res.status(201).json({
