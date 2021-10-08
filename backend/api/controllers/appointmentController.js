@@ -55,11 +55,6 @@ exports.appointment_create = (req, res, next) => {
       consumer: req.body.consumer,
     }).exec()
     .then(appointment => {
-      if (appointment.length > 2) {
-        return res.status(404).json({
-          message: "Date Fixed"
-        });
-      } else {
         const appointment = new Appointment({
           _id: new mongoose.Types.ObjectId(),
           userName:  req.body.userName,
@@ -75,10 +70,10 @@ exports.appointment_create = (req, res, next) => {
           .then(result => {
             console.log(result);
             res.status(201).json({
-              message: "Created appointement successfully",
+              message: "Registered Successfully",
             });
           })
-      }
+      
     })
     .catch(err => {
       console.log(err);
